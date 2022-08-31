@@ -26,6 +26,12 @@ gaps outer 10
 default_border pixel 1
 default_floating_border pixel 1
 
+client.focused          #FA0474 #285577 #ffffff #2e9ef4   #bfa552
+client.focused_inactive #FA0474 #5f676a #ffffff #484e50   #bfa552
+client.unfocused        #FA0474 #222222 #888888 #292d2e   #bfa552
+client.urgent           #FA0474 #900000 #ffffff #900000   #bfa552
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #bfa552
+
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
